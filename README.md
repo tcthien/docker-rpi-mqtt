@@ -1,8 +1,10 @@
 # *docker-rpi-mqtt*
 
-## *This container can be used to start Mosquitto MQTT Broker*
+## *Introduction*
 
-## *Setup Config*
+* This container can be used to start Mosquitto MQTT Broker
+
+## *Sample*
 
 ```
 #!shell
