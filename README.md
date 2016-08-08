@@ -33,11 +33,11 @@
     fi
 
 
-    echo "Running docker images toke/mosquitto"
+    echo "Running docker images"
     docker run -d -p 1883:1883 -p 9001:9001 \
             -v ${YOUR_DATA_DIR}/dockerdatadir/mqtt/config:/mqtt/config:ro \
             -v ${YOUR_DATA_DIR}/dockerdatadir/mqtt/log:/mqtt/log \
             -v ${YOUR_DATA_DIR}/dockerdatadir/mqtt/data/:/mqtt/data/ \
-            --name mqtt toke/mosquitto
+            --name mqtt -i <Image ID>
 
 ```
